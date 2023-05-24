@@ -1,6 +1,6 @@
 text = open("list.txt", "r").readlines()
 
-vertices = text[0][0]
+vertices = text[0].split()[0]
 edges = text[0][1]
 graph = {}
 text.pop(0)
